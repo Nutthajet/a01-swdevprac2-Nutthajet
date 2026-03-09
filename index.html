@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dog Adoption</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f4f6f8;
+        margin: 0;
+        padding: 20px;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        max-width: 900px;
+        margin: auto;
+      }
+
+      .card {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 15px;
+      }
+
+      .card img {
+        width: 100%;
+        height: 220px;
+        object-fit: contain;
+        background: #eee;
+      }
+      .card h3 {
+        margin: 10px 0 5px 0;
+      }
+
+      .button {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 8px 15px;
+        background: #4caf50;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+
+      .button:hover {
+        background: #45a049;
+      }
+
+      .footer {
+        position: fixed;
+        bottom: 10px;
+        left: 10px;
+        color: #555;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>หาบ้านให้สุนัข</h1>
+    <p style="text-align: center">
+      ช่วยมอบบ้านใหม่ให้เพื่อนสี่ขาที่น่ารักของเรา
+    </p>
+
+    <div class="container">
+      <div class="card">
+        <img src="image/dog1.jpg" width="240" height="500" />
+        <h3>Lucky</h3>
+        <p>สี: น้ำตาล</p>
+        <p>อายุ: ประมาณ 2 ปี</p>
+        <p>นิสัย: ร่าเริง ขี้เล่น เข้ากับคนง่าย</p>
+        <a class="button" href="adoptme.html">สนใจรับเลี้ยง</a>
+      </div>
+
+      <div class="card">
+        <img src="image/dog3.jpg" width="240" height="500" />
+        <h3>Snow</h3>
+        <p>สี: ขาว</p>
+        <p>อายุ: ประมาณ 1 ปี</p>
+        <p>นิสัย: อ่อนโยน ชอบอยู่กับเจ้าของ</p>
+        <a class="button" href="adoptme.html">สนใจรับเลี้ยง</a>
+      </div>
+
+      <div class="card">
+        <img src="image/dog2.jpg" width="240" height="500" />
+        <h3>Latte</h3>
+        <p>สี: น้ำตาลอ่อน</p>
+        <p>อายุ: ประมาณ 2 ปี</p>
+        <p>นิสัย: สุภาพ เฝ้าบ้านเก่ง</p>
+        <a class="button" href="adoptme.html">สนใจรับเลี้ยง</a>
+      </div>
+
+      <div class="card">
+        <img src="image/dog4.jpg" width="240" height="500" />
+        <h3>Buddy</h3>
+        <p>สี: ขาวน้ำตาล</p>
+        <p>อายุ: ประมาณ 4 ปี</p>
+        <p>นิสัย: ซื่อสัตย์ เป็นมิตรกับเด็ก</p>
+        <a class="button" href="adoptme.html">สนใจรับเลี้ยง</a>
+      </div>
+    </div>
+
+    <div class="footer">6833079021 นายณัฐเจษฎ์ ฝอยทอง</div>
+  </body>
+</html>
